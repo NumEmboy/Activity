@@ -1,6 +1,6 @@
 /**
  * @author Elmer Alvarado
- * @appName Insertion Sort
+ * @appName InsertionSort
  */
 public class InsertionSort extends Sort{
     
