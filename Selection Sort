@@ -1,0 +1,23 @@
+/**
+ * @author Elmer Alvarado
+ * @appName Selection Sort
+ */
+ 
+public class SelectionSort extends Sort {
+ 
+    public SelectionSort(int[] numbers) {
+        super(numbers);
+    }
+    
+    public void sort() {
+        int i,j,index;
+        for (i = 0; i < this.numbers.length - 1; i++) {
+            index = i;
+            for (j = i+1; j < this.numbers.length; j++) {
+                if (this.compare(index, j) == index) {
+                    this.swap(index, j);
+                }
+            }
+        }
+    }
+}
