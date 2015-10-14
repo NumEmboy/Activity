@@ -1,6 +1,6 @@
 /**
  * @author Elmer Alvarado
- * @appName Bubble Sort
+ * @appName BubbleSort
  */
 public class BubbleSort extends Sort{
 
