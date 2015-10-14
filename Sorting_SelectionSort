@@ -1,6 +1,6 @@
 /**
  * @author Elmer Alvarado
- * @appName Selection Sort
+ * @appName SelectionSort
  */
  
 public class SelectionSort extends Sort {
