@@ -1,0 +1,22 @@
+/**
+ * @author Elmer Alvarado
+ * @appName Bubble Sort
+ */
+public class BubbleSort extends Sort{
+
+    public BubbleSort(int[] numbers) {
+        super(numbers);
+    }
+    
+    public void sort() {
+        int i,j;
+        for (i = 0; i < this.numbers.length - 1; i++) {
+            for (j = 0; j < this.numbers.length - 1; j++) {
+               if ( this.compare(j, j+1) == j ) {
+                   this.swap(j, j+1);
+               }
+            }
+        }
+    }
+
+}
